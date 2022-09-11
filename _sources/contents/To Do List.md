@@ -1,19 +1,22 @@
 ## Log
 
+![Megaphone](../handphoneupd2.gif) **Last updated on <span style="color:red">11 Sep 2022</span>.**
+
 ```{admonition} What's Happening
 :class: tip, dropdown
 
-- 🔥 NN
-- 🔥 NLP
+- ⌛ Sampling
+- ⌛ Excel
+- ⌛ NN
+- ⌛ NLP
 - ⌛ Tensorflow
-- ⌛ Excel [new section]
+- ⌛ Airflow
+- ⌛ Neo4j
 - ⌛ Anomaly Detection
 - ⌛ Regularization
 - ⌛ Confidence Intervals
-- ⌛ Missing Value Treatment
 - ⌛ Plots
 - ⌛ Case Studies
-- ⌛ Hyper Parameter Tuning
 - ⌛ Deep Learning [new section]
 - ⌛ Collaborative Filtering
 - ⌛ Survivor Analysis
@@ -30,8 +33,39 @@
 ```{admonition} What Happened
 :class: tip, dropdown
 
+**Month of September, 2022**
+- As per suggestions by users PDF of the book as been made available as a paid extra. It can be purchased from [here](https://www.buymeacoffee.com/dearc/e/88363)
+- Big O notation section added
+- Anamoly detection section extensively updated
+
+**Month of August, 2022**
+- Behavioral - Management section added
+- New interview questions added
+
+**Month of July, 2022**
+- Data sampling section added under data
+
+**Month of June, 2022**
+- We are back post break, keep checking for new content
+- Machine Learning Framework section added and Tensorflow moved into it
+- PyCaret added to Machine Learning Framework section
+
+**Month of March, 2022**
+- Hyperparameter optimization section completed
+- Had an extremely busy last few weeks and the next few months are going to be packed too
+- Story Telling section added
+- Quick guide to Visualization added
+
+**Month of February, 2022**
+- Added problems in Python, SQL, Probability
+- Excel section updated
+- Data section has been moved into a new and broader section called Model Building
+- To keep the table of contents clean collapsable headers used in Model Building section
+- Hyperparameter optimization section added 
+
 **Month of January, 2022**
 - Neural Network section added
+- Added new problems in the Probability section
 - Added cartoons in a few sections
 - Outlier section added
 

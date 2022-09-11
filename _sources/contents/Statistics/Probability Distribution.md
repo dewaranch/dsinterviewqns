@@ -202,7 +202,7 @@ Solution Pending
 
 ```
 
-```{admonition} Problem: [MCKINSEY] Flipping Coins
+```{admonition} Problem: [MCKINSEY]  Flipping 576 Times
 :class: tip, dropdown
 
 You flip a fair coin 576 times. Without using a calculator, calculate the probability of flipping at least 312 heads.
@@ -212,6 +212,32 @@ You flip a fair coin 576 times. Without using a calculator, calculate the probab
 ```{admonition} Solution:
 :class: dropdown
 
-This is an example of a Binomial Distribution.
-The number will be ${}^{576} \mathrm{ C }_{312} (\frac{1}{2})^{312} (\frac{1}{2})^{264}$
+Fair coin, $p(H)=0.5$ Since this experiment has only $2$ outcomes hence we can use a binomial distribution, 
+
+mean = $np$ = $576*0.5 = 288$, var= $np(1-p)= 576*0.5*0.5 = 144$, stddev = sqrt(var) = $12$.
+
+For normal distribution, *68% of the data falls within one standard deviation, 95% percent within two standard deviations, and 99.7% within three standard deviations from the mean.*
+
+$312= 288$(mean)$+2*12$(stddev), which means the probability of flipping at least $312$ heads or tails is $5%$. Since we are only looking at the probability of at least $321$ heads, it is the right tail area of the distribution, which is $5%/2= 2.5%$. So the probability of flipping at least $312$ heads is $2.5%$.
+```
+
+```{admonition} Problem: [GOOGLE]  Non-normal Probability Distribution
+:class: tip, dropdown
+
+Explain how a probability distribution could be not normal and give an example scenario.
+```
+
+```{admonition} Solution:
+:class: dropdown
+
+[Source](https://www.interviewquery.com/questions/non-normal-probability-distribution?ref=question_email)
+
+Normal probability distributions are characterized by their famous bell shaped probability density function. The observations are centered around the mean and are equally spread around as per the standard deviation of the distribution, in case the probability distribution is a standard normal. They occur frequently in the nature, for e.g. distribution of heights
+
+There are other types of distributions which are not normal; since normal distributions are for continuous random variable, all discrete random variables do not follow normal distributions.
+
+There can be many examples of Non-Normal distribution:
+- Flip a coin ten times and count the number of heads you get. That follows a binomial distribution
+- Flip a coin until you get five heads and count the number of flips. That follows a negative binomial distribution
+- Take a well-shuffled deck of cards and count how many red cards there are in the first ten. That follows a hypergeometric distribution
 ```
